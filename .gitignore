@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+.next/
+prisma/migrations/
+apps/web/.env
+apps/api/.env

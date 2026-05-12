@@ -1,0 +1,21 @@
+{
+  "name": "portmusic",
+  "private": true,
+
+  "packageManager": "npm@10.8.2",
+
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.0"
+  }
+}
