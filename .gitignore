@@ -5,3 +5,4 @@ dist/
 prisma/migrations/
 apps/web/.env
 apps/api/.env
+shared/node_modules
